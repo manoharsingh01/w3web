@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url('./assets/fonts/FuturaPT-Book.woff2') format('woff2'), url('./assets/fonts/FuturaPT-Book.woff') format('woff'), url('./assets/fonts/FuturaPT-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url('./assets/fonts/FuturaPT-Demi.woff2') format('woff2'), url('./assets/fonts/FuturaPT-Demi.woff') format('woff'), url('./assets/fonts/FuturaPT-Demi.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./assets/fonts/FuturaPT-Light.woff2') format('woff2'), url('./assets/fonts/FuturaPT-Light.woff') format('woff'), url('./assets/fonts/FuturaPT-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./assets/fonts/FuturaPT-Medium.woff2') format('woff2'), url('./assets/fonts/FuturaPT-Medium.woff') format('woff'), url('./assets/fonts/FuturaPT-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Futura PT';
+  src: url('./assets/fonts/FuturaPT-Bold.woff2') format('woff2'), url('./assets/fonts/FuturaPT-Bold.woff') format('woff'), url('./assets/fonts/FuturaPT-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }

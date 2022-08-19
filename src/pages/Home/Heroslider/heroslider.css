@@ -1,0 +1,120 @@
+/*Start Banner */
+.caption_text h4 {
+    color: #13adff;
+    font-size: 20px;
+    font-family: 'Futura PT Demi';
+  }
+  .caption_text {
+    padding-left: 32%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+  }
+  span.carousel-control-next-icon, span.carousel-control-prev-icon {
+    background: #13adff;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 28px;
+    border-radius: 2px;
+  }
+  button.carousel-control-next {
+    left: 14%;
+    top: 70%;
+  }
+  button.carousel-control-prev {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+  .hero_slider, .slide_img {
+    position: relative;
+  }
+  .hero_slider:before, .hero_slider:after {
+    position: absolute;
+    content: "";
+    background: url(./HeroImages/w3DotsCircle.png);
+    height: 148px;
+    width: 156px;
+  }
+  .hero_slider:before {
+    left: 8%;
+    top: 8%;
+    animation:
+      pulse 9s ease infinite alternate, nudge 9s linear infinite alternate;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: transparent;
+    }
+  }
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(50px, 0);
+    }
+    80% {
+      transform: translate(-50px, 0);
+    }
+  }
+  .hero_slider:after {
+    left: 45%;
+    bottom: 8%;
+    animation:
+      pulse 9s ease infinite alternate, nudge 9s linear infinite alternate;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: transparent;
+    }
+  }
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(50px, 0);
+    }
+    80% {
+      transform: translate(-50px, 0);
+    }
+  }
+  .slide_img:before {
+    /background: url(./HeroImages/w3webLine.png); 
+    width: 150px;
+    height: 162px;
+    content: "";
+    bottom: 0px;
+    position: absolute;
+    left: 163px;
+    animation:
+      pulse2 9s ease infinite alternate, nudge2 9s linear infinite alternate;
+  }
+  @keyframes pulse2 {
+    0%, 100% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: transparent;
+    }
+  }
+  @keyframes nudge2 {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, 20px);
+    }
+    80% {
+      transform: translate(0, -20px);
+    }
+  }

@@ -1,0 +1,24 @@
+.works-layout-info img {
+    width: 100%;
+  }
+  .works-layout-info {
+    height: 550px;
+    overflow: hidden;
+    transition: transform 3s;
+    box-shadow: 0 50px 70px rgba(0, 0, 0, .12);
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .works-layout-col span {
+    margin-top: 30px;
+    display: block;
+    font-size: 29px;
+  }
+  .works-layout-col:hover .works-layout-info {
+    transform: scale(1.12);
+    box-shadow: 0 50px 70px rgba(0, 0, 0, .29);
+  }
+  .works-layout-info img:hover {
+    transform: translateY(calc(-100% + 550px));
+    transition: 10s ease !important;
+  }

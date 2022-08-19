@@ -1,0 +1,85 @@
+/* Start Testimonials */
+.w3testimonial_sec {
+    background: url(./images/img-testimonial.jpg);
+    background-position: 50%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    position: relative;
+  }
+  .w3testimonial_sec .item p.msg_box {
+    background: #f7f7f7;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 50px 30px 30px;
+  }
+  .testimonial-client img {
+    border-radius: 5px;
+    width: 80px !important;
+    margin-right: 10px;
+  }
+  .client-name h6 {
+    color: #13adff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .client-name p {
+    color: #fff;
+    font-size: 18px;
+  }
+  .testimonial-client .client-img, .testimonial-client .client-name {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .testimonial-client {
+    text-align: left;
+    margin: 50px 70px 0;
+    position: relative;
+  }
+  .testimonial-client:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    content: "";
+    border-top: 45px solid #f7f7f7;
+    border-right: 10px solid transparent;
+    border-bottom: 0;
+    border-left: 50px solid transparent;
+    top: -65px;
+    left: -17px;
+    transition: all .5s;
+  }
+  .msg_box i {
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+    color: #13adff;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -30px;
+  }
+  .w3testimonial_sec .owl-theme .owl-dots .owl-dot span, .owl-theme .owl-dots .owl-dot:hover span {
+    width: 14px;
+    height: 14px;
+    margin: 5px 7px;
+    background: #13adff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    border: 1px solid #13adff;
+  }
+  .owl-theme .owl-dots .owl-dot.active span {
+    background: transparent !important;
+    border: 1px solid #13adff;
+  }

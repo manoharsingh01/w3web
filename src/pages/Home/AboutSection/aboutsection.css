@@ -1,0 +1,75 @@
+/* About Section Css */
+.w3about_section {
+    padding: 78px 0 114px;
+  }
+  .w3about_section h4 {
+    display: inline-block;
+  }
+  .w3about_section h4:before {
+    content: "";
+    background: #fff;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    right: -80px;
+    top: 13px;
+  }
+  .about_img img:first-child {
+    position: relative;
+    left: 0;
+    z-index: 999;
+  }
+  .about_img img:nth-child(2) {
+    position: absolute;
+    left: 43px;
+    z-index: 9;
+    top: 68px;
+    animation:
+      pulse3 9s ease infinite alternate, nudge3 9s linear infinite alternate;
+  }
+  @keyframes pulse3 {
+    0%, 100% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: transparent;
+    }
+  }
+  @keyframes nudge3 {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(30px, 0);
+    }
+    80% {
+      transform: translate(-30px, 0);
+    }
+  }
+  .about_img img:nth-child(3) {
+    position: absolute;
+    left: 45px;
+    z-index: 3;
+    top: 64px;
+    animation:
+      pulse4 9s ease infinite alternate, nudge4 9s linear infinite alternate;
+  }
+  @keyframes pulse4 {
+    0%, 100% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: transparent;
+    }
+  }
+  @keyframes nudge4 {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0px, 30);
+    }
+    80% {
+      transform: translate(0px, -30px);
+    }
+  }
